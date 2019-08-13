@@ -1,0 +1,26 @@
+﻿<krpano version="1.19" title="Virtual Tour">
+	<include url="skin/vtourskin.xml" />
+	<!--<view hlookat="0" vlookat="0" fovmin="60" fov="100" fovmax="150" />
+	<preview url="preview.jpg" />
+	<image>
+		<cube url="pano_%s.jpg" />
+	</image>-->
+  
+  <action name="startup" autorun="onstart">
+    if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
+    loadscene(get(startscene), null, MERGE);
+    if(startactions !== null, startactions() );
+  </action>
+  <view hlookat="0" vlookat="0" fovmin="60" fov="100" fovmax="150" />
+  <preview url="panos/IMG_1191-HDR_Panorama.tiles/preview.jpg" />
+  <scene name="er" title="Entrance" onstart="" thumburl="panos/IMG_1191-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+    <image>
+      <cube url="panos/IMG_1191-HDR_Panorama.tiles/pano_%s.jpg" />
+    </image>
+  </scene>
+  <scene name="lr" title="Livingroom / Kitchen" onstart="" thumburl="panos/IMG_1215-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+    <image>
+      <cube url="panos/IMG_1215-HDR_Panorama.tiles/pano_%s.jpg" />
+    </image>
+  </scene>
+</krpano>

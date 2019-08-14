@@ -1,0 +1,143 @@
+﻿body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: microsoft yahei, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+.vrshow_tour_btn_wrap {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -115px;
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;
+    z-index: 800;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+/*logo样式*/
+
+
+
+
+.vrshow_container_logo {
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    max-width: 325px;
+    z-index: 800;
+    height: 60px;
+}
+    .vrshow_container_logo img {
+        height: 60px;
+        width: 60px;
+        float: left;
+        cursor: pointer;
+    }
+.vrshow_logo_title {
+    width: 255px;
+    color: #fff;
+    display: inline;
+    margin-left: 10px;
+    margin-top: 8px;
+    float: left;
+}
+/*右上角按钮样式*/
+.vrshow_container_1_min {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    width: 40px;
+    z-index: 800;
+}
+    .vrshow_container_1_min div {
+        display: block;
+        height: 40px;
+        width: 40px;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+.btn_fullscreen {
+    background: url(/Static/full-screen.png) no-repeat;
+    background-size: 40px;
+}
+.btn_vrmode {
+    background: url(/Static/vrmode.png) no-repeat;
+    background-size: 40px;
+}
+.btn_bgmusic {
+    background: url(/Static/bgmusic-open.png) no-repeat;
+    background-size: 40px;
+}
+.btn_music {
+    background: url(/Static/music-open.png) no-repeat;
+    background-size: 40px;
+}
+.btn_gyro {
+    background: url(/Static/gyro-open.png) no-repeat;
+    background-size: 40px;
+}
+/*场景选择*/
+.vrshow_container_3_min {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: 800;
+}
+.scene-choose-width {
+    width: 60px;
+}
+
+.img_desc_container_min {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+ .vrshow_container_3_min span, .vrshow_container_3_min img {
+    display: block;
+    width: 40px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.img_desc_min {
+    width: 100%;
+    text-overflow: clip;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+}
+
+
+/*自适应样式*/
+@media screen and (max-width: 767px) {
+    .vrshow_container_logo {
+        height: 30px;
+    }
+
+        .vrshow_container_logo img {
+            width: 30px;
+            height: 30px;
+            float: left;
+        }
+    .vrshow_logo_title {
+        font-size: 10px;
+        margin-top: 0;
+        float: left;
+    }
+    .vrshow_container_1_min div {
+        width: 30px;
+        height: 30px;
+        background-size: 30px 30px;
+    }
+}

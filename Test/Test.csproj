@@ -138,6 +138,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\test.js" />
+    <Content Include="Content\vrshow.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -257,6 +258,7 @@
     <Content Include="Static\bgmusic-close.png" />
     <Content Include="Static\bgmusic-open.png" />
     <Content Include="Static\commentclose.png" />
+    <Content Include="Static\custom_logo.png" />
     <Content Include="Static\footmark.png" />
     <Content Include="Static\full-screen.png" />
     <Content Include="Static\full-stop.png" />

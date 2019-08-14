@@ -35,7 +35,7 @@ var initPano = function () {
     //if (data.scene_group.sceneGroups.length>0) {
     //     $(".vrshow_container_3_min .img_desc_container_min:eq(0) img").attr('src',data.scene_group.sceneGroups[0].imgPath);
     //}
-    $(".vrshow_container_3_min .img_desc_container_min:eq(0) img").attr('src', '/Krpano/vtour/panos/IMG_1191-HDR_Panorama.tiles/thumb.jpg');
+    //$(".vrshow_container_3_min .img_desc_container_min:eq(0) img").attr('src', '/Krpano/vtour/panos/IMG_1191-HDR_Panorama.tiles/thumb.jpg');
     //#endregion
     embedpano({
         swf: "/Krpano/vtour/tour.swf",
